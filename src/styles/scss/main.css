@@ -208,4 +208,38 @@ p {
   height: 2px;
   background-color: #131313;
   width: 30px;
+}
+
+.info {
+  margin-bottom: 150px;
+}
+.info_wrapper {
+  display: flex;
+}
+.info_img {
+  margin-right: 60px;
+  flex-basis: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.info_list {
+  flex-basis: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info_list-item:not(last-child) {
+  margin-bottom: 50px;
+}
+.info_list-item .item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.info_list-item .item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
 }/*# sourceMappingURL=main.css.map */
