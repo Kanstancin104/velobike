@@ -15,7 +15,7 @@
     justify-content: space-between;
   }
   &_list-item {
-    &:not(last-child) {
+    &:not(:last-child) {
       margin-bottom: 50px;
     }
     .item-title {

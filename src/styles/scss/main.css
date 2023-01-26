@@ -228,7 +228,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-.info_list-item:not(last-child) {
+.info_list-item:not(:last-child) {
   margin-bottom: 50px;
 }
 .info_list-item .item-title {
